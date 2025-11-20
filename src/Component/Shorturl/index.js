@@ -178,7 +178,7 @@ class Shorturl extends Component {
       return <li className="short-card">No data found</li>;
     }
 
-    const { id, short_code, long_url, clicks, created_at, last_clicked_at } =
+    const { short_code, long_url, clicks, created_at, last_clicked_at } =
       formattedData;
 
     const shortURL = `${API_BASE}/${short_code}`;
